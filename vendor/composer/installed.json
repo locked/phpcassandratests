@@ -1,0 +1,40 @@
+[
+    {
+        "name": "evseevnn/php-cassandra-binary",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/evseevnn/php-cassandra-binary.git",
+            "reference": "7185308afececfc3f4e758b5556ae1e6373405d4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/evseevnn/php-cassandra-binary/zipball/7185308afececfc3f4e758b5556ae1e6373405d4",
+            "reference": "7185308afececfc3f4e758b5556ae1e6373405d4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2014-08-31 07:45:16",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "evseevnn\\Cassandra\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Evseev Nikolay",
+                "email": "evseevnn@gmail.com"
+            }
+        ],
+        "description": "PHP library for Cassandra database via a binary protocol"
+    }
+]
